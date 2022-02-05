@@ -2,4 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import "colors.css"
+@import "colors.css";
+
+
+.btn_test {
+    @apply border border-2 border-black  px-4 py-3;
+    background:url(../img/blob-blue.svg) center no-repeat;
+}
